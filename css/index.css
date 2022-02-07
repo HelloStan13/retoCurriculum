@@ -1,0 +1,157 @@
+/* divison de pagina en 2 columnas */
+* {
+  margin: 0px;
+  padding: 2px;
+  font-style:inherit;
+  }
+   
+  .columntotal {
+  float: left;
+  width: 20%;
+  }
+  
+  .columntotal1 {
+   width: 80%;
+  
+  }
+  
+  .rowpaginatotal {
+   width: 1200px;
+  margin-left: 200px;
+  margin-right: 200px;
+ 
+ 
+  }
+
+  #content::after {  display:block;  content:"";  clear:both;}
+
+  /* tamaño de imagen de perfil */
+  img {
+  max-width: 60%;
+
+  }
+  
+  p {
+  margin-bottom: 0px;
+  width: 100%;
+  font-size: 15px;
+  }
+  
+
+  body {
+  font-family: Arial;
+  font-size: 15px;;
+ 
+  }
+  /* Estilos perfil  */
+  .profile-box {
+  padding: 0px;
+  float: none;
+  margin: auto;
+  
+  line-height: 2;
+  }
+  .profile-cover .left-box {
+    text-align:center;
+  }
+  .profile-cover .left-box .name-det h2 {
+  background-color: rgb(156, 156, 156);
+  font-size: 30px;
+  color: white;
+  }
+  .profile-cover .left-box .name-det h3 {
+  background-color: rgb(156, 156, 156);
+  font-size: 15px;
+  color: white;
+  }
+  .profile-cover .left-box .name-det p {
+  font-size: 20px;
+  background-color: rgb(156, 156, 156);
+  }
+  .profile-cover .left-box .left-title {
+ 
+  font-size: 20px;
+  }
+  .profile-cover .left-box .left-title p {
+  text-align: justify;
+  font-size: 15px;
+ 
+  }
+  .profile-cover .left-box .left-title h3 {
+  font-size: 20px;
+  background-color: rgb(156, 156, 156);
+  color: #EAEAEA;
+  }
+  /* cambia color de icono red social */
+  /* cambia tamaño de icono red social */
+  .profile-cover .left-box .sociallik li i {
+  font-size: 20px;
+  }
+  /* cambia letra red social */
+  .profile-cover .left-box .sociallik li a {
+  color: rgb(156, 156, 156);
+  font-size: 15px;
+  }
+  /* colores del bar y tamaño de letra */
+  .profile-cover .left-box .profess-cover{
+  font-size: 15px;
+  }
+
+  /* forma y colores del bar */
+  .progress{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #aeafaf;
+  border-radius: 0.25rem;
+  }
+
+  .profile-cover .left-box .profess-cover .progressbar {
+  background-color: #287e3b;
+  }
+
+  /* div */
+  .col-sm-6{
+  position: relative;
+  width: 100%;
+  padding-right: 4px;
+  padding-left: 4px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 1 0 50%;
+  }
+
+  /* tamaño de iconos y colores */
+  #icono i {
+  font-size: 25px;
+  color: #6c6d6c;
+  width: 25px;
+  
+ }
+
+  .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  }
+
+  /* estilo de boton */
+  .collapsible {
+  background-color: rgb(156, 156, 156);
+  color: rgb(255, 255, 255);
+  width: 650px;
+  border: none;
+  text-align:justify;
+  font-size: 25px;
+  font-family: Arial;
+  }
+
+  footer{
+    background-color: rgb(244, 246, 249);
+    align-content: center;
+    }
